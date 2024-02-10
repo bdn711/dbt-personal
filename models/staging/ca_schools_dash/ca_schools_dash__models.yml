@@ -2,7 +2,6 @@
 version: 2
 
 models:
-
   - name: stg_CSD__cci
     description: Unioned CA School Dashboard College/Career indicator base models.
 

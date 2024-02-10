@@ -1,5 +1,5 @@
 with data2023 as (
-    select * from 
+    select
         Cds,
         RType,
         SchoolName,
@@ -15,11 +15,11 @@ with data2023 as (
         null::real as PriorStatus,
         null::real as Change,
         StatusLevel,
-        null:integer as ChangeLevel,
-        null:integer as Color,
+        null::integer as ChangeLevel,
+        null::integer as Color,
         CurrNSizeMet,
-        null:boolean as PriorNSizeMet,
-        null:boolean as AccountabilityMet,
+        null::boolean as PriorNSizeMet,
+        null::boolean as AccountabilityMet,
         Indicator,
         ReportingYear
     from {{ ref('base_cci2023')}}
