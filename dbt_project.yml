@@ -40,7 +40,6 @@ models:
 
     # Applies to all files under models/staging/
     staging:
-      +materialized: table
 
       ca_schools_dash:
         
