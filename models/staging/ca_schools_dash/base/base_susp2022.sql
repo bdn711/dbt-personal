@@ -13,4 +13,4 @@ select
     statuslevel as StatusLevel,
     'SUSP' as Indicator,
     reportingyear as ReportingYear
-select * from {{ source('ca_schools_dash', 'susp2022') }}
+from {{ source('ca_schools_dash', 'susp2022') }}
