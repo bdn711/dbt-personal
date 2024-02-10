@@ -2,23 +2,23 @@
 version: 2
 
 models:
-  - name: stg_CSD__cci
+  - name: stg_ca_schools_dash__cci
     description: Unioned CA School Dashboard College/Career indicator base models.
 
-  - name: stg_CSD__chronic
+  - name: stg_ca_schools_dash__chronic
     description: Unioned CA School Dashboard Chronic Absenteeism indicator base models.
 
-  - name: stg_CSD__ela
+  - name: stg_ca_schools_dash__ela
     description: Unioned CA School Dashboard ELA indicator base models.
 
-  - name: stg_CSD__elpi
+  - name: stg_ca_schools_dash__elpi
     description: Unioned CA School Dashboard English Learner Progress indicator base models.
 
-  - name: stg_CSD__grad
+  - name: stg_ca_schools_dash__grad
     description: Unioned CA School Dashboard Graduation Rate indicator base models.
 
-  - name: stg_CSD__math
+  - name: stg_ca_schools_dash__math
     description: Unioned CA School Dashboard Math indicator base models.
 
-  - name: stg_CSD__susp
+  - name: stg_ca_schools_dash__susp
     description: Unioned CA School Dashboard Suspension Rate indicator base models.
