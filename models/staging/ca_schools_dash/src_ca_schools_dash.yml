@@ -1,0 +1,47 @@
+
+version: 2
+
+sources:
+  - name: ca_schools_dash
+    database: analytics
+    schema: ca_schools_dash
+    tables:
+
+      - name: chronic2022
+        description: 2022 CA School Dashboard Chronic Absenteeism Rate indicator data file. Downloaded from https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp
+
+      - name: ela2022
+        description: 2022 CA School Dashboard ELA indicator data file. Downloaded from https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp
+
+      - name: elpi2022
+        description: 2022 CA School Dashboard English Learner Progress indicator data file. Downloaded from https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp
+
+      - name: grad2022
+        description: 2022 CA School Dashboard Graduation Rate indicator data file. Downloaded from https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp
+
+      - name: math2022
+        description: 2022 CA School Dashboard Math data file. Downloaded from https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp
+
+      - name: susp2022
+        description: 2022 CA School Dashboard Suspension Rate indicator data file. Downloaded from https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp
+
+      - name: cci2023
+        description: 2023 CA School Dashboard College/Career indicator data file. Downloaded from https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp
+
+      - name: chronic2023
+        description: 2023 CA School Dashboard Chronic Absenteeism Rate indicator data file. Downloaded from https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp
+
+      - name: ela2023
+        description: 2023 CA School Dashboard ELA indicator data file. Downloaded from https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp
+
+      - name: elpi2023
+        description: 2023 CA School Dashboard English Learner Progress indicator data file. Downloaded from https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp
+
+      - name: grad2023
+        description: 2023 CA School Dashboard Graduation Rate indicator data file. Downloaded from https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp
+
+      - name: math2023
+        description: 2023 CA School Dashboard Math data file. Downloaded from https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp
+
+      - name: susp2023
+        description: 2023 CA School Dashboard Suspension Rate indicator data file. Downloaded from https://www.cde.ca.gov/ta/ac/cm/dashboardresources.asp
