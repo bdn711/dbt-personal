@@ -38,6 +38,10 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   my_personal_project:
 
+    # Applies to all files under models/marts/
+    marts:
+      +materialized: table
+
     # Applies to all files under models/staging/
     staging:
 
@@ -45,4 +49,4 @@ models:
         
         # Applies to files under models/staging/ca_schools_dash/base/
         base:
-         +materialized: ephemeral
+          +materialized: ephemeral
