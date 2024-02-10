@@ -12,7 +12,7 @@ select
     currstatus as CurrStatus,
     priordenom as PriorDenom,
     priorstatus as PriorStatus,
-    change as Change,
+    nullif(change, '')::real as Change,
     statuslevel as StatusLevel,
     changelevel as ChangeLevel,
     color as Color,

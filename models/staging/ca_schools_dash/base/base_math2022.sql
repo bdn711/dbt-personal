@@ -9,7 +9,7 @@ select
     case when coe_flag = 'Y' then true else false end as CoeFlag,
     studentgroup as StudentGroup,
     currdenom as CurrDenom,
-    currstatus as CurrStatus,
+    nullif(currstatus, '')::real as CurrStatus,
     statuslevel as StatusLevel,
     'MATH' as Indicator,
     reportingyear as ReportingYear
