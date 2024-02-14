@@ -1,0 +1,6 @@
+
+version: 2
+
+models:
+  - name: ca_schools_dash
+    description: Unioned CA School Dashboard indicator staging models.
