@@ -1,15 +1,1 @@
-Welcome to your new dbt project!
-
-### Using the starter project
-
-Try running the following commands:
-- dbt run
-- dbt test
-
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](https://getdbt.com/community) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+This is a dbt project that transforms data from the [California School Dashboard](https://www.caschooldashboard.org/) to project current [charter school performance categories](https://www.cde.ca.gov/sp/ch/performcategory.asp) used in the [charter school renewal](https://www.cde.ca.gov/sp/ch/renewalprocess.asp) process. 
